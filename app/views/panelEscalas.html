@@ -1,0 +1,23 @@
+﻿<div class="content">
+    <div class="tabela">
+            <ul>
+                <li class="tabDate">21 - 10 - 2010</li>
+                <li class="tabNextPrev"><a href="#"><span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span></a></li>
+                <li class="tabDay">2 seg</li>
+                <li class="tabDay">3 ter</li>
+                <li class="tabDay">4 qua</li>
+                <li class="tabDay">5 qui</li>
+                <li class="tabDay">6 sex</li>
+                <li class="tabDay">7 sab</li>
+                <li class="tabDay">8 dom</li>
+                <li class="tabNextPrev"><a href="#"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a></li>
+            </ul>
+    </div>
+    <div class="tabela" ng-repeat="pessoa in pessoas">
+        <ul>
+            <li class="tabName">{{pessoa.Id}} - {{pessoa.PNome}} {{pessoa.UNome}}</li>
+            <li class="tabPrefix" ng-repeat="servico in servicos | filter: { GnrId: pessoa.Id }:false" ng-init="getTipoPrefixo(servico.TipoServicoID)">{{tipoPrefixo}}</li>
+        </ul>
+    </div>
+</div>
+

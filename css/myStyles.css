@@ -1,0 +1,119 @@
+﻿body{
+    background-color:#F0F0F0;
+    clear: both; 
+	margin: 0 auto; 
+	width: 100%;
+}
+.header {
+  width: 100%;
+  height: 52px;
+  padding:0;
+  padding-top:1px;
+}
+.views {
+    width: 100%;
+    height:600px;
+    padding-top:0;
+    padding-left:0;
+    float:left;
+}
+.tabela{
+    width:100%;
+    height:38px;
+    color:#808080;
+}
+.tabela ul {
+	list-style: none; 
+	margin:0;
+    padding:0;  
+}
+.tabela ul li {
+	float: left; 
+	display: inline;
+    
+}
+.tabConteudo{
+    width:16.45%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    border: 1.5px solid #B8B8B8 ;
+    margin-left:1px;
+    margin-right:1px;
+    border-radius:5%;
+}
+.tabMenu{
+    width:16.6%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    color:blue;
+    background-color:#585858 ;
+    border: solid black 1px;
+}
+.tabNextPrev{
+	width:5%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    color:white;
+    background-color:#585858 ;
+    border: solid black 1px;
+}
+.tabDate{
+	width:20%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    color:white;
+    background-color:#585858 ;
+    border: solid black 1px;
+}
+.tabName{
+    width:25%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    border: 1.5px solid #B8B8B8 ;
+    margin-left:1px;
+    margin-right:1px;
+    border-radius:5%;
+}
+.tabDay{
+	width:10%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    color:white;
+    background-color:#585858 ;
+    border: solid black 1px;
+}
+.tabPrefix{
+    width:9.9%;
+    height:100%;
+    padding:6px;
+    text-align:center;
+    border: 1.5px solid #B8B8B8 ;
+    margin-left:1px;
+    margin-right:1px;
+    border-radius:5%;
+}
+
+
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Georgia;
+  color: #918c91;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  border: solid #88898a 2px;
+  text-decoration: none;
+  width:8%;
+}
+
+.btn:hover {
+  background: #cdcfd1;
+  text-decoration: none;
+}

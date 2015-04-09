@@ -1,0 +1,35 @@
+﻿<div class="content">
+    <form class="pure-form pure-form-aligned">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="ID">ID</label>
+                <input id="ID" type="number" placeholder="ID" ng-model="pessoa.Id" required>
+            </div>
+
+            <div class="pure-control-group">
+                <label for="PNome">Primeiro Nome</label>
+                <input id="PNome" type="text" placeholder="PNome" ng-model="pessoa.PNome" required>
+            </div>
+            <div class="pure-control-group">
+                <label for="UNome">Ultimo Nome</label>
+                <input id="UNome" type="text" placeholder="UNome" ng-model="pessoa.UNome" required>
+            </div>
+            <div class="pure-control-group">
+                <label for="Numero">Numero</label>
+                <input id="Numero" type="number" placeholder="Numero" ng-model="pessoa.Numero" required>
+            </div>
+            <div class="pure-control-group">
+                <label for="DataNasc">Data Nascimento</label>
+                <input id="DataNasc" type="datetime" placeholder="Data Nascimento" ng-model="pessoa.DataNasc" required>
+            </div>
+            <div class="pure-control-group">
+                <label for="Ativo">Ativo</label>
+                <input id="Ativo" type="checkbox" placeholder="Ativo" ng-model="pessoa.Ativo" required>
+            </div>
+            <a ng-click="postPessoa()" href="#/pessoas">Gravar</a>
+            <a href="#/pessoas">Cancelar</a>
+
+
+        </fieldset>
+    </form>
+</div>
